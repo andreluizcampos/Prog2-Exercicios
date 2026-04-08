@@ -46,8 +46,8 @@ int main()
                 {
                     qtd_lesoes++;
 
-                   pacientes[j] = vinculaLesaoPaciente(pacientes[j], lesao);
-                        break;
+                    pacientes[j] = vinculaLesaoPaciente(pacientes[j], lesao);
+                    break;
                 }
             }
 
@@ -74,14 +74,23 @@ int main()
     }
 
     printf("TOTAL PACIENTES: %d\n", i);
-    printf("MEDIA IDADE (ANOS): %d\n", media/i);
-    printf("TOTAL LESOES: %d\n",qtd_lesoes);
+
+    if (media > 0)
+    {
+        printf("MEDIA IDADE (ANOS): %d\n", media / i);
+    }
+
+    else
+    {
+        printf("MEDIA IDADE (ANOS): -\n");
+    }
+    printf("TOTAL LESOES: %d\n", qtd_lesoes);
     printf("TOTAL CIRURGIAS: %d\n", qtd_cirurgias);
     printf("LISTA DE PACIENTES:\n");
 
-        for( int k = 0;k<i;k++){
+    for (int k = 0; k < i; k++)
+    {
 
-            imprimePaciente(pacientes[k]);
-        }
-        
+        imprimePaciente(pacientes[k]);
+    }
 }

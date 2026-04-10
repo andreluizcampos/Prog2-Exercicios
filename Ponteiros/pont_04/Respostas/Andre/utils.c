@@ -42,14 +42,14 @@ void EncontraMaiorMenorMedia(int *array, int tamanho, int *maior, int *menor, fl
             *maior = array[i];
         }
 
-        if( array[i] < *menor){
+        if (array[i] < *menor)
+        {
 
-            *menor = array [i];
-
+            *menor = array[i];
         }
 
         *media += array[i];
     }
 
-    *media = *media/(float)tamanho;
+    *media = *media / (float)tamanho;
 }

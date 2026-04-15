@@ -1,0 +1,6 @@
+==16875== Memcheck, a memory error detector
+==16875== Copyright (C) 2002-2022, and GNU GPL'd, by Julian Seward et al.
+==16875== Using Valgrind-3.22.0 and LibVEX; rerun with -h for copyright info
+==16875== Command: Resultados/Andre/main/prog Resultados/Andre/main/Casos/3
+==16875== Parent PID: 16874
+==16875== 

@@ -1,3 +1,0 @@
-/usr/bin/ld: Resultados/Andre/jogo/main.o: na função "main":
-main.c:(.text+0x5b): undefined reference to `ContinuaJogo'
-collect2: error: ld returned 1 exit status

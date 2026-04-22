@@ -5,12 +5,13 @@
 #include "candidato.h"
 #include "eleicao.h"
 
-int main (){
+int main()
+{
 
     tEleicao *eleicao;
     eleicao = InicializaEleicao();
     RealizaEleicao(eleicao);
     ImprimeResultadoEleicao(eleicao);
     ApagaEleicao(eleicao);
-        return 0;
+    return 0;
 }

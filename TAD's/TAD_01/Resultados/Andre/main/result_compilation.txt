@@ -1,4 +1,0 @@
-main.c: In function ‘main’:
-main.c:11:9: warning: variable ‘jogada’ set but not used [-Wunused-but-set-variable]
-   11 | tJogada jogada;
-      |         ^~~~~~

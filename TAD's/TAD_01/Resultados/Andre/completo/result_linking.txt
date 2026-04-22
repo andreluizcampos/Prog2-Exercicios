@@ -1,9 +1,0 @@
-/usr/bin/ld: Resultados/Andre/completo/jogador.o: na função "JogaJogador":
-jogador.c:(.text+0x81): undefined reference to `EhPosicaoValidaTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0xba): undefined reference to `EstaLivrePosicaoTabuleiro'
-/usr/bin/ld: jogador.c:(.text+0xfc): undefined reference to `MarcaPosicaoTabuleiro'
-/usr/bin/ld: Resultados/Andre/completo/jogo.o: na função "ComecaJogo":
-jogo.c:(.text+0x60): undefined reference to `CriaTabuleiro'
-/usr/bin/ld: Resultados/Andre/completo/jogo.o: na função "AcabouJogo":
-jogo.c:(.text+0xa5): undefined reference to `TemPosicaoLivreTabuleiro'
-collect2: error: ld returned 1 exit status
